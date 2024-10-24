@@ -1,5 +1,6 @@
 'use client'
-import React, { lazy, useState } from 'react';
+import Image from 'next/image';
+import React, {useState } from 'react';
 import { useRouter } from 'next/navigation';
 function Hero() {
   const router = useRouter(); // Initialize the router
@@ -52,7 +53,7 @@ function Hero() {
       </div>
 
       <div className='ml-10'>
-        <img 
+        <Image
           src="https://www.governorsindh.com/_next/static/media/cover.1d863e39.png" 
           alt="Governor Sindh" 
           className='h-[500px] w-auto' 

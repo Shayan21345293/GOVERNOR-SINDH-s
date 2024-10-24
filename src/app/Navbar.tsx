@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-
+import Image from 'next/image';
 function Navbar() {
   return (
     <div>
@@ -27,7 +27,7 @@ function Navbar() {
       
     </div>
     <div className=' relative'>
-    <img src="https://www.governorsindh.com/_next/static/media/logo.9ff76f62.png" alt="Logo" className="h-30 w-24 absolute -bottom-16 left-6" />
+    <Image src="https://www.governorsindh.com/_next/static/media/logo.9ff76f62.png" alt="Logo" className="h-30 w-24 absolute -bottom-16 left-6" />
     </div>
     </div>
     
