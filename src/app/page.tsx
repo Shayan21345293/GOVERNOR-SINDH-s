@@ -1,4 +1,8 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// eslint-disable-next-line @next/next/no-img-element
+
 'use client'
+
 import Image from 'next/image';
 import React, {useState } from 'react';
 import { useRouter } from 'next/navigation';
